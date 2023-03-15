@@ -1,6 +1,6 @@
 pipeline:
-  name: test
-  identifier: test
+  name: onboarding_pipelines
+  identifier: onboarding_pipelines
   projectIdentifier: DanF
   orgIdentifier: SE_Sandbox
   tags: {}
