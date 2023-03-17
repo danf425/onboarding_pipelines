@@ -1,0 +1,9 @@
+pipeline:
+  name: citiTemplatizedExample
+  identifier: citiTemplatizedExample
+  template:
+    templateRef: SimpleCDTemplate
+    versionLabel: Version1
+  tags: {}
+  projectIdentifier: DanF
+  orgIdentifier: SE_Sandbox
