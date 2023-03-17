@@ -4,6 +4,14 @@ pipeline:
   template:
     templateRef: SimpleCDTemplate
     versionLabel: Version1
+    templateInputs:
+      stages:
+        - stage:
+            identifier: DevDeploy
+            type: Deployment
+            spec:
+              service:
+                serviceRef: k8shelm
   tags: {}
   projectIdentifier: DanF
   orgIdentifier: SE_Sandbox
