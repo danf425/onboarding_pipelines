@@ -137,3 +137,5 @@ pipeline:
                 - AllErrors
               action:
                 type: StageRollback
+        delegateSelectors:
+          - platform-delegate-with-tf
