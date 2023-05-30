@@ -30,7 +30,7 @@ pipeline:
             steps:
               - step:
                   type: Run
-                  name: echo1
+                  name: echo99
                   identifier: echo
                   spec:
                     connectorRef: danfdockerhub
