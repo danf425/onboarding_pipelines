@@ -3,7 +3,6 @@ pipeline:
   identifier: onboarding_pipelines
   template:
     templateRef: onboardingtemplate
-    versionLabel: v1
     templateInputs:
       properties:
         ci:
