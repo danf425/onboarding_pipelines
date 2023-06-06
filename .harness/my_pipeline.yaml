@@ -2,7 +2,7 @@ pipeline:
   name: pipelineCreatedFromCurl
   identifier: pipelineCreatedFromCurl
   template:
-    templateRef: templated_pipeline_v1
+    templateRef: templated_pipeline
     templateInputs:
       properties:
         ci:
