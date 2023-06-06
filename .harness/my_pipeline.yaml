@@ -1,0 +1,13 @@
+pipeline:
+  name: pipelineCreatedFromCurl
+  identifier: pipelineCreatedFromCurl
+  template:
+    templateRef: templated_pipeline_v1
+    templateInputs:
+      properties:
+        ci:
+          codebase:
+            build: <+input>
+  tags: {}
+  projectIdentifier: DanF
+  orgIdentifier: SE_Sandbox
