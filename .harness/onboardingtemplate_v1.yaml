@@ -46,6 +46,19 @@ template:
             deploymentType: Kubernetes
             service:
               serviceRef: jhttpservice
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    manifests:
+                      - manifest:
+                          identifier: temp
+                          type: Values
+                          spec:
+                            store:
+                              type: Github
+                              spec:
+                                paths: <+input>
             execution:
               steps:
                 - stepGroup:
@@ -98,6 +111,11 @@ template:
               deployToAll: false
               infrastructureDefinitions:
                 - identifier: DEV
+                  inputs:
+                    identifier: DEV
+                    type: KubernetesDirect
+                    spec:
+                      namespace: <+input>
           tags: {}
           failureStrategies:
             - onFailure:
