@@ -1,5 +1,5 @@
 pipeline:
-  name: nmc2test
+  name: nmc2test2
   identifier: nmc2test
   projectIdentifier: Dan_Flores
   orgIdentifier: sandbox
@@ -23,7 +23,7 @@ pipeline:
                     source:
                       type: Inline
                       spec:
-                        script: echo "hi"
+                        script: echo "hi team"
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
