@@ -1,5 +1,5 @@
 pipeline:
-  name: 1343412
+  name: nmc2test
   identifier: nmc2test
   projectIdentifier: Dan_Flores
   orgIdentifier: sandbox
